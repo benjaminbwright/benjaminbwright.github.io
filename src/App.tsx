@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./components/header";
+import HeadshotContactCard from "./components/HeadshotContactCard";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header />
+      <main className="flex flex-col">
+        <HeadshotContactCard />
+        <div className="font-roboto p-5 w-full md:w-2/3 md:border-e-2">
+          <h2 className="font-roboto font-bold uppercase text-4xl">
+            A Passion For Learning
+          </h2>
+          <p>
+            I'm a passionate self-taught software engineer who likes to get my
+            hands dirty. I cut my teeth building building websites and server
+            environments in the Broadway and Off-Broadway theatrical industry.
+            Working in that industry was challenging because of the constant
+            flow of new ideas that had to quickly be expressed on the web.
+          </p>
+        </div>
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
