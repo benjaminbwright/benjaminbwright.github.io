@@ -1,4 +1,4 @@
-import Header from "./components/header";
+import Header from "./components/Header";
 import HeadshotContactCard from "./components/HeadshotContactCard";
 import "./App.css";
 import TechLogos from "./components/TechLogos";
