@@ -20,6 +20,9 @@ function App() {
             Working in that industry was challenging because of the constant
             flow of new ideas that had to quickly be expressed on the web.
           </p>
+          <h2 className="font-roboto font-bold uppercase text-4xl">
+            Technologies
+          </h2>
           <TechLogos />
         </div>
       </main>
