@@ -2,7 +2,7 @@ import headshot from "../assets/headshot.jpeg";
 
 const HeadshotContactCard = () => {
   return (
-    <div className="p-5 w-full md:w-1/3 md:fixed right-0">
+    <div className="p-5 w-full md:w-1/3 right-0">
       <div className="border-2 border-b-0">
         <img src={headshot} alt="Benjamin Wright" />
       </div>
