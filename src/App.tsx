@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import HeadshotContactCard from "./components/HeadshotContactCard";
 import "./App.css";
 import TechLogos from "./components/TechLogos";
@@ -26,6 +27,7 @@ function App() {
           <TechLogos />
         </div>
       </main>
+      <Footer />
     </>
   );
 }
