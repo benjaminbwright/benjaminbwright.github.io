@@ -6,6 +6,15 @@ function Projects() {
         I've worked with a number of companies and organizations to build
         websites and server environments.
       </p>
+      <div>
+        <h3>
+          <a href="https://www.theatrical.com">Theatrical.com</a>
+        </h3>
+        <p>
+          I built the website for Theatrical.com, a platform for theater
+          professionals to find and book auditions.
+        </p>
+      </div>
     </section>
   );
 }
